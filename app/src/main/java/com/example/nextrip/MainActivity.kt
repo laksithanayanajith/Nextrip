@@ -69,6 +69,8 @@ class MainActivity : AppCompatActivity() {
         firebaseAuth.signInWithCredential(credential).addOnCompleteListener {
             if (it.isSuccessful) {
                 val intent: Intent = Intent(this, HomeActivity::class.java)
+                intent.putExtra("name", account.displayName)
+                intent.putExtra("email", account.email)
                 startActivity(intent)
             } else {
                 Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
