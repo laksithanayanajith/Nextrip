@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "708535902312",
+    "project_id": "nextrip-3b085",
+    "storage_bucket": "nextrip-3b085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708535902312:android:f3c0f0025db2cbbf3bdbdd",
+        "android_client_info": {
+          "package_name": "com.example.nextrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708535902312-87d9bgs94jocin9rcjfeo8arqmnb7i5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nextrip",
+            "certificate_hash": "5cb846d32d125c375a836626e3dc5716b89b4e67"
+          }
+        },
+        {
+          "client_id": "708535902312-a03rfjaicpqb3mdru7d56m6bg31ir97l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeitB6Ig-zsiVQctEMwWl0569Y5j_KG3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708535902312-a03rfjaicpqb3mdru7d56m6bg31ir97l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

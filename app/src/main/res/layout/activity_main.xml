@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7028F1"
+    android:backgroundTint="#7028F1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/signinwithgoogle"
+        android:layout_width="204dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="32dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:text="Continue with Google"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#6814FF"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="100dp"
+        android:text="NEXTRIP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#000000"
+        android:textSize="155dp"
+        app:layout_constraintBottom_toTopOf="@+id/signinwithgoogle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="381dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/signinwithgoogle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511"
+        app:srcCompat="@drawable/lets_travel_around_the_world_with_a_plan" />
+
+</RelativeLayout>
